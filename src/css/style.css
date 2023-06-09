@@ -150,8 +150,10 @@ body {
 .projetos {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
+    max-height: 180px;
+    overflow-y: scroll;
 }
 
 .titulo-projeto {
@@ -164,7 +166,7 @@ body {
 }
 
 .pokemon {
-    padding: 0 50px;
+    padding: 0 40px;
 }
 
 .pokemon img {
@@ -180,6 +182,7 @@ body {
     background-color: #1e1e1e;
     align-items: center;
     transition: 0.3s;
+    padding: 10px;
 }
 
 .projeto:hover {
