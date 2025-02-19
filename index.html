@@ -1,142 +1,168 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/rolagem.css">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/rolagem.css" />
 
     <title>Portifólio</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <main class="cartao">
-        <div class="minhas-informacoes">
-            <img src="./src/imagens/foto-perfil.jpg" alt="foto-do-perfil">
-            <h1 class="nome" style="font-family: 'VT323', monospace;">Mayllan Bispo</h1>
-            <h2 class="cargo
-            ">Desenvolvedora front-end Júnior</h2>
-        </div>
+      <div class="minhas-informacoes">
+        <img src="./src/imagens/foto-perfil.jpg" alt="foto-do-perfil" />
+        <h1 class="nome" style="font-family: 'VT323', monospace">
+          Mayllan Bispo
+        </h1>
+        <h2 class="cargo">Desenvolvedora front-end Júnior</h2>
+      </div>
 
-        <div class="conteudo">
-            <ul class="abas">
-                <li class="aba selecionado" id="sobre-mim">
-                    <img src="./src/imagens/sobre.gif" alt="icone de sobre mim">
-                </li>
-                <li class="aba" id="meus-projetos">
-                    <img src="./src/imagens/logo.pjt.png" alt="meus projetos">
-                </li>
-                <li class="aba" id="minhas-redes">
-                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
-                </li>
-            </ul>
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagens/sobre.gif" alt="icone de sobre mim" />
+          </li>
+          <li class="aba" id="meus-projetos">
+            <img src="./src/imagens/logo.pjt.png" alt="meus projetos" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/imagens/coracao.gif" alt="icone de redes sociais" />
+          </li>
+        </ul>
 
-            <div class="informacoes-abas">
-                <div class="informacao selecionado" id="informacao-sobre-mim">
-                    <h3 class="sub-titulo">Sobre</h3>
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
 
-                    <div class="descricao">
-                        <p>Olá! Meu nome é Mayllan Bispo, seja bem-vindo(a)!</p>
-                        <p>
-                            Sou apaixonada pela programação desde que eu tinha 16 anos.
-                            Sempre tive o sonho de trabalhar com programação e atualmente comecei a colocar esse sonho
-                            em prática estudando <span>HTML, CSS e JavaScript.</span>
-                            Gosto muito de café (até demais), e meus principais hobbies são jogar, ler, ver animes e
-                            séries.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="informacao" id="informacao-meus-projetos">
-                    <h3 class="sub-titulo">Meus Projetos</h3>
-
-                    <ul class="projetos">
-                        <!-- POKEMOS -->
-                        <li class="projeto">
-
-                            <a href="https://mayllanb.github.io/Pokemon/" target="_blank">
-                                <div class="pokemon">
-                                    <img src="./src/imagens/pokeball.png" alt="projeto pokemon">
-                                </div>
-                                <h4 class="titulo-projeto">Pokemon Cards</h4>
-
-
-                                <span class="descricao-titulo">Descrição</span>
-
-                                <p class="descricao-projeto">Pokemon Cards é um projeto de cards de Pokemon com descrição.</p>
-                            </a>
-                        </li>
-                        
-                        <!-- ADOÇÃO DE GATOS -->
-                        <li class="projeto">
-
-                            <a href="https://mayllanb.github.io/Adocao-De-Gatos/" target="_blank">
-                                <div class="adocao">
-                                    <img src="/src/imagens/cat-screen-removebg-preview.png" alt="projeto pokemon">
-                                </div>
-                                <h4 class="titulo-adocao">Adoção de gatos</h4>
-
-
-                                <span class="descricao-titulo">Descrição</span>
-
-                                <p class="descricao-projeto">Essa landing page, foi feita apenas como um projeto.</p>
-                            </a>
-                        </li>
-                        
-                        <!-- projetos não listado -->
-                        <li class="projeto">
-
-                            <a href="#" target="_blank" alt="Ainda não tem um projeto">
-                                <div class="pokemon">
-                                    <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/494011-adicionar-icone-de-design-gr%C3%A1tis-vetor.jpg" alt="projeto pokemon">
-                                </div>
-                                <h4 class="titulo-projeto">Adicionaremos no futuro</h4>
-
-
-                                <!-- <span class="descricao-titulo">Descrição</span> -->
-
-                                <p class="descricao-projeto"></p>
-                            </a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div class="informacao" id="informacao-minhas-redes">
-                    <h3 class="sub-titulo">Minhas Redes</h3>
-
-                    <ul class="redes-sociais">
-                        <li>
-                            <a href="https://docs.google.com/document/d/1rpil1CKvo0n5CQnb4E7xC6RS00Gg37VDlmIBoOO9ICM/edit#"
-                            target="_blank" class="curriculo">Currículo</a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/mayllan-bispo-2260061aa/" target="_blank"
-                                class="linkedin">LinkedIn</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/MayllanB" target="_blank" class="github">GitHub</a>
-                        </li>
-                        <li>
-                            <a href="./src/imagens/qr-code-whasapp.jpeg" target="_blank" class="whatsapp">WhatsApp</a>
-                        </li>
-                    </ul>
-                </div>
-
+            <div class="descricao">
+              <p>Olá! Meu nome é Mayllan Bispo, seja bem-vindo(a)!</p>
+              <p>
+                Sou apaixonada pela programação desde que eu tinha 16 anos.
+                Sempre tive o sonho de trabalhar com programação e atualmente
+                comecei a colocar esse sonho em prática estudando
+                <span>HTML, CSS e JavaScript.</span>
+                Gosto muito de café (até demais), e meus principais hobbies são
+                jogar, ler, ver animes e séries.
+              </p>
             </div>
+          </div>
+
+          <div class="informacao" id="informacao-meus-projetos">
+            <h3 class="sub-titulo">Meus Projetos</h3>
+
+            <ul class="projetos">
+              <!-- POKEMOS -->
+              <li class="projeto">
+                <a href="https://mayllanb.github.io/Pokemon/" target="_blank">
+                  <div class="pokemon">
+                    <img src="./src/imagens/pokeball.png" alt="pokeball" />
+                  </div>
+                  <h4 class="titulo-projeto">Pokemon Cards</h4>
+
+                  <span class="descricao-titulo">Descrição</span>
+
+                  <p class="descricao-projeto">
+                    Pokemon Cards é um projeto de cards de Pokemon com
+                    descrição.
+                  </p>
+                </a>
+              </li>
+
+              <!-- ADOÇÃO DE GATOS -->
+              <li class="projeto">
+                <a
+                  href="https://mayllanb.github.io/Adocao-De-Gatos/"
+                  target="_blank"
+                >
+                  <div class="adocao">
+                    <img
+                      src="./src/imagens/cat-screen-removebg-preview.png"
+                      alt="imagem de varios gatinhos"
+                    />
+                  </div>
+                  <h4 class="titulo-adocao">Adoção de gatos</h4>
+
+                  <span class="descricao-titulo">Descrição</span>
+
+                  <p class="descricao-projeto">
+                    Essa landing page, foi feita apenas como um projeto.
+                  </p>
+                </a>
+              </li>
+
+              <!-- projetos não listado -->
+              <li class="projeto">
+                <a href="#" target="_blank" alt="Ainda não tem um projeto">
+                  <div class="pokemon">
+                    <img
+                      src="https://static.vecteezy.com/ti/vetor-gratis/p3/494011-adicionar-icone-de-design-gr%C3%A1tis-vetor.jpg"
+                      alt="projeto pokemon"
+                    />
+                  </div>
+                  <h4 class="titulo-projeto">Adicionaremos no futuro</h4>
+
+                  <!-- <span class="descricao-titulo">Descrição</span> -->
+
+                  <p class="descricao-projeto"></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas Redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/1rpil1CKvo0n5CQnb4E7xC6RS00Gg37VDlmIBoOO9ICM/edit#"
+                  target="_blank"
+                  class="curriculo"
+                  >Currículo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/mayllan-bispo-2260061aa/"
+                  target="_blank"
+                  class="linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/MayllanB"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./src/imagens/qr-code-whasapp.jpeg"
+                  target="_blank"
+                  class="whatsapp"
+                  >WhatsApp</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </main>
 
     <script src="./src/JS/index.js"></script>
-</body>
-
+  </body>
 </html>
