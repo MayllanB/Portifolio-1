@@ -196,3 +196,17 @@ body {
 .descricao-titulo {
     color: #fff;
 }
+
+.adocao{
+    text-align: center;
+}
+
+.adocao img{
+    width: 60px;
+    height: 60px;
+}
+
+.titulo-adocao{
+    color: #fff;
+    padding: 6px 4px;
+}
